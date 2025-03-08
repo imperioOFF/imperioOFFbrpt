@@ -14,7 +14,7 @@ local args4 = {[1] = "RolePlayBio", [2] = "Slowed Studios"};
 game:GetService("ReplicatedStorage").RE:FindFirstChild(
     "1RPNam1eTex1t"):FireServer(unpack(args4));
 local OrionLib = loadstring(game:HttpGet(
-                                "https://you.whimper.xyz/sources/slowed/0"))();
+                                ";
 local Window = OrionLib:MakeWindow({
     Name = "IMPERIO OFF V1 BR",
     HidePremium = false,
@@ -685,20 +685,20 @@ TT:AddButton({
     Name = "Get guitarra (Sound)",
     Callback = function()
         loadstring(game:HttpGet(
-                        "https://you.whimper.xyz/sources/slowed/1"))();
+                        ""))();
     end
 });
 TT:AddButton({
     Name = "Get Violão (Sound)",
     Callback = function()
         loadstring(game:HttpGet(
-                        "https://you.whimper.xyz/sources/slowed/2"))();
+                        ""))();
     end
 });
 TT:AddButton({
     Name = "Get Sofa",
     Callback = function()
-        loadstring(game:HttpGet("https://you.whimper.xyz/sources/slowed/3"))();
+        loadstring(game:HttpGet(""))();
     end
 });
 TT:AddButton({
