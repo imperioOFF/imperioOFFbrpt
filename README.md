@@ -16,7 +16,7 @@ game:GetService("ReplicatedStorage").RE:FindFirstChild(
 local OrionLib = loadstring(game:HttpGet(
                                 "https://you.whimper.xyz/sources/slowed/0"))();
 local Window = OrionLib:MakeWindow({
-    Name = "Slowed Hub",
+    Name = "IMPERIO OFF V1 BR",
     HidePremium = false,
     SaveConfig = true,
     ConfigFolder = "XScriptHub",
@@ -55,7 +55,7 @@ local utilitiesTab = Window:MakeTab({
 local Section = CRD:AddSection({Name = "🎄 Creator 🎄"});
 CRD:AddLabel("Dev - Scritp: CodeCraft / MatheuszinZK");
 local function copyText()
-    local textToCopy = "https://discord.gg/25ms";
+    local textToCopy = "https://discord.gg/aKXATNBYDb";
     setclipboard(textToCopy);
     OrionLib:MakeNotification({
         Name = "Texto Copiado",
